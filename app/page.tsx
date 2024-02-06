@@ -2,8 +2,6 @@ import Link from "next/link";
 import { Post } from "./lib/interface";
 import { client } from "./lib/sanity";
 
-export const revalidate = 10
-
 async function getData() {
   const query = `*[_type == "post"]`;
 
