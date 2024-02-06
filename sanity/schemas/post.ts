@@ -1,5 +1,5 @@
 export default {
-export const revalidate = 60
+export const revalidate = 60;
     name: 'post',
     type: 'document',
     title: 'Post',
