@@ -12,6 +12,9 @@ async function getData(slug: string) {
   return data;
 }
 
+export default function ({
+  const revalidate = 60
+  )}
 export default async function SlugPage({
   params,
 }: {
