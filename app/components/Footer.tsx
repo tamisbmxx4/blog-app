@@ -1,8 +1,6 @@
 import React from "react"
 import {
   AiOutlineGithub,
-  AiOutlineTwitter,
-  AiOutlineLinkedin,
   AiOutlineFacebook,
 } from "react-icons/ai"
 
@@ -21,27 +19,7 @@ const Footer = () => {
               size={30}
             />
           </a>
-          <a
-            href="https://twitter.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineTwitter
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
 
-          <a
-            href="https://www.linkedin.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
           <a
             href="https://www.facebook.com/tamisseptian"
             rel="noreferrer"
