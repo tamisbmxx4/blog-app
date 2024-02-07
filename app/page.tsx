@@ -1,9 +1,7 @@
-'use client'
 import Link from "next/link";
 import { Post } from "./lib/interface";
 import { client } from "./lib/sanity";
 
-export const revalidate = 60
 async function getData() {
   const query = `*[_type == "post"]`;
 
@@ -11,7 +9,7 @@ async function getData() {
 
   return data;
 }
-
+export const revalidate = 60
 export default async function IndexPage() {
   const data = (await getData()) as Post[];
 
