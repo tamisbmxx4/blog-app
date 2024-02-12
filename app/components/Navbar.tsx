@@ -17,7 +17,7 @@ export default function Navbar() {
                 <div className="flex items-center">
                   <Link href="">
                     <h1 className="text-2xl font-medium">
-                      NEVER<span className="text-teal-500">MIND</span>
+                      mis<span className="text-teal-500">Blog 🌐</span>
                     </h1>
                   </Link>
                 </div>
